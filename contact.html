@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
     <title>SheCodes Portfolio</title>
   </head>
+
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
@@ -27,7 +28,7 @@
           <img
             src="images/logo.png"
             class="logo d-none d-md-block"
-            alt="shila Logo"
+            alt="Shila Logo"
           />
           <img
             src="images/logo-small.jpg"
@@ -40,13 +41,13 @@
             <a href="index.html" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="about.html" title="About shila"> About</a>
+            <a href="about.html" title="About Shila"> About</a>
           </li>
           <li>
-            <a href="work.html" title="shila's work"> Work</a>
+            <a href="work.html" title="Shila's work"> Work</a>
           </li>
           <li class="active">
-            <a href="contact.html" title="Contact shila"> Contact</a>
+            <a href="contact.html" title="Contact Shila"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -54,22 +55,58 @@
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:shila.rajafi@gmail.com"> shila.rajafi@gmail.com </a>
-        </p>
-        <h3>Twitter</h3>
-        <p>
-          <a href="https://www.twitter.com/shecodesio" target="_blank">
-            @shecodesio
-          </a>
-        </p>
-        <h3>Instagram</h3>
-        <p>
-          <a href="https://www.instagram.com/shecodes.io" target="_blank">
-            @shecodes.io
-          </a>
-        </p>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/mwkalajy"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required=""
+                  autofocus=""
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required=""
+                ></textarea>
+              </div>
+
+              <!-- your other form fields go here -->
+
+              <button type="submit" class="btn btn-branding">Send</button>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:shila.rajafi@gmail.com">
+                shila.rajafi@gmail.com
+              </a>
+            </p>
+            <h3>Twitter</h3>
+            <p>
+              <a href="https://twitter.com/shecodesio" target="_blank">
+                @shecodesio
+              </a>
+            </p>
+            <h3>Instagram</h3>
+            <p>
+              <a href="https://www.instagram.com/shecodes.io" target="_blank">
+                @shecodes.io
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="container">
@@ -80,9 +117,9 @@
         </div>
         <div>
           <a
-            href="/contact.html"
+            href="contact.html"
             class="btn btn-branding mt-3"
-            title="Contact shila"
+            title="Contact Shila"
           >
             Contact me
           </a>
@@ -92,28 +129,28 @@
         <a
           href="mailto:shila.rajafi@gmail.com"
           class="email-link"
-          title="Email shila"
+          title="Email Shila"
         >
           shila.rajafi@gmail.com
         </a>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a
-          href="https://www.github.com/shila-r"
+          href="https://github.com/shila-r"
           target="_blank"
           title="GitHub Profile"
         >
           <i class="fab fa-github" aria-hidden="true"></i>
         </a>
         <a
-          href="https://www.instragram.com/shecodes.io"
+          href="https://www.instagram.com/shecodes.io"
           target="_blank"
           title="instragram Profile"
         >
           <i class="fab fa-instagram" aria-hidden="true"></i>
         </a>
         <a
-          href="https://www.twitter.com/shecodesio"
+          href="https://twitter.com/shecodesio"
           target="_blank"
           title="Twitter Profile"
         >
@@ -122,7 +159,9 @@
       </div>
       <p class="text-center mt-5">
         ✌️ This website was coded by Shila Rajafi, and is
-        <a href="https://github.com/shila-r/" target="_blank"> open-sourced </a>
+        <a href="https://github.com/shila-r/10sep" target="_blank">
+          open-sourced
+        </a>
       </p>
     </footer>
   </body>
